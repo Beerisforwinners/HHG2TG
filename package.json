@@ -1,0 +1,25 @@
+{
+  "name": "jszm",
+  "version": "2.0.3",
+  "description": "A public-domain Z-machine implementation written in JavaScript/ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "node example.js tests/czech_0_8/czech.z3",
+    "zork": "node example.js tests/minizork.z3",
+    "hhg2g": "node example.js tests/hhg2g/hhg.z3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DLehenbauer/jszm.git"
+  },
+  "keywords": [
+    "jszm",
+    "z-machine",
+    "infocom",
+    "zork"
+  ],
+  "bugs": {
+    "url": "https://github.com/DLehenbauer/jszm/issues"
+  },
+  "homepage": "https://github.com/DLehenbauer/jszm#readme"
+}
